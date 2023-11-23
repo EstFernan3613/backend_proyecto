@@ -1,3 +1,4 @@
+// userController.js
 const User = require('../models/userModel');
 
 const createUser = async (req, res) => {
@@ -19,4 +20,6 @@ const getUserById = async (req, res) => {
   }
 };
 
-  
+// Otras funciones relacionadas con la gestión de usuarios
+
+module.exports = { createUser, getUserById };
